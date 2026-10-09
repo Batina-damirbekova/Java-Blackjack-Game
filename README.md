@@ -2,7 +2,7 @@
 
 A Java coursework project exploring object-oriented programming, playing cards, collections, and a graphical Blackjack interface built with Java Swing.
 
-## Features and concepts
+## Features and Concepts
 
 - Models cards, ranks, and suits with separate classes and enums
 - Builds and shuffles a deck of cards
@@ -11,7 +11,7 @@ A Java coursework project exploring object-oriented programming, playing cards, 
 - Includes a Swing-based Blackjack game interface
 - Includes `Assignment2`, which demonstrates working with card hands and collections
 
-## Project structure
+## Project Structure
 
 ```text
 src/
@@ -29,6 +29,11 @@ src/
     └── Suit.java
 ```
 
+## Requirements
+
+- Java Development Kit (JDK)
+- A terminal or Java IDE
+
 ## Compile
 
 From the project root, run:
@@ -39,22 +44,26 @@ javac -d out src/cardDeck/*.java
 
 ## Run
 
-Run the collection/card assignment:
+Run the card collections assignment:
 
 ```bash
 java -cp out cardDeck.Assignment2
 ```
 
-Run the Blackjack GUI:
+Launch the Blackjack GUI:
 
 ```bash
 java -cp out cardDeck.Main
 ```
 
-## Card image assets
+## Card Image Assets
 
-The Blackjack GUI references image files under `img/cards/` (including `CardDown.png`). Those image assets were not included in the source archive used to prepare this repository. The Java source can compile without them, but the GUI may not display card images until the assets are added in the expected folder.
+The Blackjack GUI references images under `img/cards/`, including `CardDown.png`. These assets are not currently included in this repository. The Java source compiles without them, but the GUI may not display card images until the assets are added in the expected folder.
 
-## Notes
+## What I Learned
 
-This is a learning project, not production game software. It is based on coursework and is intended to demonstrate Java programming concepts.
+This project gave me practice with object-oriented design, enums, Java collections, class relationships, and building a graphical interface with Swing.
+
+## Note
+
+This is a learning project based on coursework, not production game software.
